@@ -1,0 +1,14 @@
+
+
+urllib
+urlib是Python3自带的一个库，可以模拟浏览器的行为，向指定的服务器方送一个请求，并可以保服务器返回的数据
+
+1、urlopen函数(demo1)
+from urllib import requests
+resp = request.urlopen('http://www.baidu.com')
+
+import urllib.parse
+import urllib.request
+ 1、get请求
+
+ 2、post请求 需要有data参数
